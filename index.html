@@ -29,62 +29,62 @@
     <!-- header -->
 
     <header class="header" id="header">
-
         <nav class="nav container navbar-expand-lg">
-            <a href="#" class="nav-logo navbar-brand ml-3">Chuqi Zhang</a>
+            <a href="#" class="nav__logo navbar-brand ml-3">Biplov JHA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
 
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list grid">
-                    <li class="nav_item">
-                        <a href="#home" class="nav_link">
-                            <i class="uil uil-home nav_icon"></i>HOME
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
                         </a>
                     </li>
-                    <li class="nav_item">
-                        <a href="#about" class="nav_link">
-                            <i class="uil uil-user-circle nav_icon"></i>ABOUT
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>Skills
                         </a>
                     </li>
-                    <li class="nav_item">
-                        <a href="#skills" class="nav_link">
-                            <i class="uil uil--book-reader nav_icon"></i>SKILLS
+
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i>Qualification
                         </a>
                     </li>
-                    <li class="nav_item">
-                        <a href="#qualifications" class="nav_link">
-                            <i class="uil uil-file-bookmark-alt nav_icon"></i>qualification
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
                         </a>
                     </li>
-                    <li class="nav_item">
-                        <a href="#portfolio" class="nav_link">
-                            <i class="uil uil-vector-square nav_icon"></i>portfolio
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">
-                            <i class="uil uil-comment-heart nav_icon"></i>CONTACT
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact Us
                         </a>
                     </li>
                 </ul>
-                <i class="uil uil-times nav_close" id="nav-close"></i>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
 
-            <div class="nav_btns">
+            <div class="nav__btns">
+                <!-- THEME CHANGING BUTTONS -->
+                <i data-mode= "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
 
-                <i data-mode="dark" class="uil uil-moonset moon-change-theme" id="theme-button"></i>
-
-                <div class="nav_toggle" id="nav-toggle">
+                <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
-
             </div>
         </nav>
-
-
     </header>
 
     <!-- ============main============ -->
@@ -143,6 +143,38 @@
         <!-- about me -->
 
         <section class="about section" id="about">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle">My Introduction</span>
+        <div class="about__container container grid">
+            <img src="/assets/img/download.jfif" alt="my achievement photo" class="about__img">
+
+            <div class="about__data">
+                <p class="about__description" id="home-about">
+                    Web Developer, with extensive knowledge and years of experience, working with 
+                </p>
+            </div>
+
+            <!-- <div class="about__info">
+                <div>
+                    <span class="about__info-title">02+</span>
+                    <span class="about__info-name">Years <br> experience </span>
+                </div>
+                <div>
+                    <span class="about__info-title">02+</span>
+                    <span class="about__info-name">Years <br> experience </span>
+                </div>
+                <div>
+                    <span class="about__info-title">02+</span>
+                    <span class="about__info-name">Years <br> experience </span>
+                </div>
+            </div> -->
+
+            <div class="about__buttons">
+                <a href="assets/file/resume.pdf" download="my_CV" class="button button--flex">
+                    Download CV <i class="uil uil-folder-download"></i>
+                </a>
+            </div>
+        </div>
             
         </section>
 
