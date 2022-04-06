@@ -69,7 +69,7 @@ console.log("Remove menu profile is working!")
 
 
 new Typewriter('#typewriter', {
-  strings: ['Chuqi Zhang', 'Software Develpment', 'Math', 'Competitive Programming', ''],
+  strings: ['Chuqi Zhang', 'Software Developer', 'Math Major', 'Competitive Programming', '中国人' , ''],
   autoStart: true,
   loop: true,
   cursor: "|"
